@@ -34,7 +34,6 @@ def get_photos(rover="mars2020", cache=True):
         page_start = 0
         
     max_page = ceil(get_max_photos(rover)/100)
-    max_page = 1
 
     for page_number in tqdm(range(page_start, max_page)):
         page = get_raw_photos(page_number, rover)
