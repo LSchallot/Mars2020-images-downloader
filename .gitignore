@@ -1,4 +1,6 @@
-output
-__pycache__
+output/
+__pycache__/
 json
 cache.json
+.idea/
+venv/
